@@ -30,7 +30,7 @@
 
         <div class="col-lg-4 col-md-5 col-sm-6">
             <div class="sponsor">
-                <img alt="Picture of Wantong Jiang" height="300px" width="210px" src="./pic/wt.jpg" style="margin-left: 50px">
+                <img alt="Picture of Wantong Jiang" height="300px" width="250px" src="./pic/myself.jpeg" style="margin-left: 50px">
             </div>
         </div>
 
@@ -64,10 +64,9 @@
         <div class="col-lg-12">
           <h4 id="type">Bio</h4>
           <p style="font-size:16px">
-          I am a senior undergraduate @ Peking University, advised by <a href="http://www.cs.cmu.edu/~chenren/">Chenren Xu</a>. </br>
-          I am broadly interested in networking systems, operating systems, and database systems. </br>
-          Currently, I am taking an intern in <a href="https://www.microsoft.com/en-us/research/people/yqx/">Yongqiang Xiong</a>'s group @ Microsoft Research Asia. </br>
-          I aim to build a regular expression engine based on GPU. <br> 
+          I am a first-year master student in computer science @ Stanford University, dual track in Systems and AI. </br>
+          I am broadly interested in networking systems, operating systems, and databases. </br>
+          I'm looking for software engineer intern in summer 2019. <br> 
           </p>
         </div>
 
@@ -76,15 +75,15 @@
             <h4 id="type">Publications</h4>
             
 
-            <span class="lead">[Papers under review]</span>[If you want the full PDF, feel free to contact me.]<br>
+            <span class="lead">[Papers under review]</span><br>
 	    <ol>
 
             <li>
             <span style="font-size:16px;font-family:helvetica">
             A Comparative Measurement Study of Modern TCP Variants over LTE Networks on High-speed Rails.
             <!-- <a href="paper/simple-sosr18.pdf">PDF Download</a> -->
-            <br><strong>Wantong Jiang</strong>, Yunzhe Ni, Yufan Zheng, Yang Shen, Chenren Xu and Yuanjie Li. 
-            <br>Submitted to <em><strong>SIGMETRICS 2018</em></strong>, International Conference on Measurement and Modeling of Computer Systems. 
+            <br>Jing Wang, Yunzhe Ni, Yufan Zheng, <strong>Wantong Jiang</strong>, Chenren Xu. 
+            <br>Submitted to <em><strong>MOBICOM 2019</em></strong>, The 25th Annual International Conference on Mobile Computing and Networking. 
             </span>
             </li>
 
@@ -104,7 +103,7 @@
             
             <li>
             <span style="font-size:16px;font-family:helvetica">
-                September 2017 - Present; Advisor: <a href="http://baiwei0427.github.io">Wei Bai</a>
+                September 2017 - April 2018; Advisor: <a href="http://baiwei0427.github.io">Wei Bai</a>
             </span>
             </li>
             
@@ -113,13 +112,11 @@
             Building a regular expression engine based on GPU for MSR-CE.
             <ul>
                 <li>
-                    Create a GPU accelerator to optimize regular expression matching.
+                    Designed and implemented a parallelizable regular expression matching algorithm based on NFA for Modsecurity, written in CUDA and run on GPU.
                 </li>
                 <li>
-                    Implement GPU-CPU interfaces for asynchronous communication.
-                </li>
-                <li>
-                    Implement an HTTP packet generator according to Core Rule Set (CRS).
+                    Applying JIT produced 10X speedup compared to regular expression matching engine PCRE, processed to be applied into real product.
+
                 </li>
             </ul>
             </span>
@@ -146,6 +143,9 @@
                 <li>
                     Implemented a link-state like routing protocol supporting inherent multicast, and an efficient forwarding engine for a new address format.
                 </li>
+                <li>
+                	Implemented an efficient forwarding engine for a brand new address format that uses position and attributes to descript information instead of IP address to specify hosts.
+				</li>
                 <li>
                     Built a local sensor network with Raspberry Pi and real temperature and distance sensors and deployed the new protocol.
                 </li>
